@@ -1,0 +1,140 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+code/07-data-structures/rocks-game/.idea/misc.xml
+code/07-data-structures/simple_dict/.idea/misc.xml
+code/07-data-structures/simple_dict/.idea/modules.xml
+code/07-data-structures/simple_dict/.idea/vcs.xml
+code/07-data-structures/simple_dict/.idea/inspectionProfiles/profiles_settings.xml
+code/08-problem-solving/tictactoe/.idea/misc.xml
+code/08-problem-solving/tictactoe/.idea/modules.xml
+code/08-problem-solving/tictactoe/.idea/Tic Tac Toe.iml
+code/08-problem-solving/tictactoe/.idea/vcs.xml
+code/08-problem-solving/tictactoe/.idea/inspectionProfiles/profiles_settings.xml
+leaderboard.json
+code/09-working-with-files/.idea/$CACHE_FILE$
+code/09-working-with-files/.idea/.gitignore
+code/09-working-with-files/.idea/09-working-with-files.iml
+code/09-working-with-files/.idea/misc.xml
+code/09-working-with-files/.idea/modules.xml
+code/09-working-with-files/.idea/vagrant.xml
+code/09-working-with-files/.idea/vcs.xml
+code/09-working-with-files/.idea/inspectionProfiles/profiles_settings.xml
+misc.xml
+.idea/$CACHE_FILE$
+.idea/beginners-course.iml
+.idea/modules.xml
+.idea/vagrant.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+mkennedy.xml
+code/08-problem-solving/tictactoe/.idea/tictactoe.iml
+code/08-problem-solving/tictactoe/.idea/inspectionProfiles/Project_Default.xml
+code/07-data-structures/rocks-game/rolls.json
+code/09-working-with-files/rocks-game/requirements.txt
+code/07-data-structures/simple_dict/.idea/simple_dict.iml
+code/07-data-structures/simple_dict/.idea/inspectionProfiles/Project_Default.xml
+workspace.xml
