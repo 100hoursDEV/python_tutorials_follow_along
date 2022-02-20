@@ -1,4 +1,3 @@
-
 # simulate database:
 def get_latest_packages():
     return [
