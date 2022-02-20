@@ -1,12 +1,10 @@
-from flask import Flask, render_template
-
 import os
 import sys
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+import flask
+folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.insert(0, folder)
 
-from pypi_org.infrastructure.view_modifiers import response
-from pypi_org.services import package_service
-app = Flask(__name__)
+app = flask.Flask(__name__)
 
 
 def main():
@@ -17,11 +15,10 @@ def main():
 def register_blueprints():
     from pypi_org.views import home_views
     from pypi_org.views import package_views
-    # from pypi_org.views import cms_views
 
-    app.register_blueprint(home_views.blueprint)
     app.register_blueprint(package_views.blueprint)
+    app.register_blueprint(home_views.blueprint)
 
 
-if __name__ == "__main__":
-    main()
+main()
+
