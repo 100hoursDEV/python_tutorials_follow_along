@@ -23,5 +23,8 @@ def register_blueprints():
     app.register_blueprint(account_views.blueprint)
     app.register_blueprint(cms_views.blueprint)
 
-main()
 
+if __name__ == "__main__":
+    main()
+else:
+    register_blueprints()
