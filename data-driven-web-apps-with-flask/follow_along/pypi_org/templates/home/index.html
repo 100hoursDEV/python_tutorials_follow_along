@@ -1,26 +1,53 @@
 {% extends "shared/_layout.html" %}
-{% block additional_css %}
+{#{% block additional_css %}#}
 {# just a comment for now #}
-{% endblock %} 
+{#{% endblock %} #}
 
-{% block title %} - Home{% endblock %} 
+{% block title %} - Home{% endblock %}
 
 
 {% block main_content %}
 
-    <h1>Hello World</h1>
-    <h2>Packages</h2>
+    <div class="hero">
+        <h1>Find, </h1>
+        <input type="text" placeholder="Search projects" class="form-control">
 
-    {% for pack in packages %}
-    <div>
-        <span class="title">{{ pack.name }}</span>
-        <span class="version">{{ pack.version }}</span>
+        <div class="pypi-stats">
+            <div class="stats">-1 projects</div>
+            <div class="stats">-1 releases</div>
+            <div class="stats">-1 users</div>
+        </div>
     </div>
-    {% endfor %}
+
+
+    <div class="container project-list">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+
+                <h2>New releases</h2>
+
+                <div class="subtitle">
+                    Hot off the press: the newest project releases
+                </div>
+
+                {% for p in packages %}
+                    <div class="project">
+                        <div class="title">
+                            <a href="#">{{ p.name }} {{ p.version }}</a>
+                            <div class="desc">THE DESC</div>
+                        </div>
+                    </div>
+                {% endfor %}
+
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
 
 {% endblock %}
 
 
 
-{% block additional_js %}
-{% endblock %} 
+{#{% block additional_js %}#}
+{#{% endblock %} #}
